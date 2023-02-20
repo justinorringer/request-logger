@@ -1,0 +1,39 @@
+{
+  "name": "request-logger",
+  "version": "1.0.0",
+  "description": "a simple node app to display network request details",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justinorringer/request-logger.git"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "network",
+    "request",
+    "logger",
+    "ui"
+  ],
+  "author": "Justin Orringer",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/justinorringer/request-logger/issues"
+  },
+  "homepage": "https://github.com/justinorringer/request-logger#readme",
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.18.2",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
